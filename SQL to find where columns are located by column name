@@ -1,0 +1,44 @@
+
+SELECT      COLUMN_NAME AS 'ColumnName'
+            ,TABLE_NAME AS  'TableName'
+FROM        INFORMATION_SCHEMA.COLUMNS
+WHERE       COLUMN_NAME LIKE '%MyName%'
+ORDER BY    TableName
+            ,ColumnName;
+
+
+
+Select   t.name AS 'TableName'
+,c.name  AS 'ColumnName' FROM        sys.columns c
+JOIN        sys.tables  t   ON c.object_id = t.object_id
+WHERE       c.name LIKE '%origination%'
+ORDER BY    TableName
+
+
+
+
+SELECT      c.name  AS 'ColumnName'
+            ,t.name AS 'TableName'
+FROM        sys.columns c
+JOIN        sys.tables  t   ON c.object_id = t.object_id
+WHERE       c.name LIKE '%Lender%'
+ORDER BY    TableName
+            ,ColumnName;
+
+
+
+
+
+
+select * from INFORMATION_SCHEMA.COLUMNS 
+where COLUMN_NAME like '%Lender%' 
+order by TABLE_NAME
+
+
+
+
+
+SELECT Table_Name, Column_Name 
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_CATALOG = 'MovementRetail'
+AND COLUMN_NAME LIKE '%Lender%'

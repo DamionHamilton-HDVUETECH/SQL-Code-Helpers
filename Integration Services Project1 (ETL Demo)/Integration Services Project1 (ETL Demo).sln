@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "Integration Services Project1 (ETL Demo)", "Integration Services Project1 (ETL Demo)\Integration Services Project1 (ETL Demo).dtproj", "{CF482DC7-F316-4C52-B7CD-921E774B027A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF482DC7-F316-4C52-B7CD-921E774B027A}.Development|Default.ActiveCfg = Development
+		{CF482DC7-F316-4C52-B7CD-921E774B027A}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {912A73F4-8109-453F-BE5A-0B6FEE81FFE8}
+	EndGlobalSection
+EndGlobal
